@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+}
+
+.top-div {  
+    background-color:cornflowerblue;
+    height: 250px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+h1, h4 {
+     margin-left: 200px;
+    margin-top: 0px;
+    color:black;
+}
+
+.body-div {
+    margin: auto;
+    width: 35%;
+    padding: 30px;
+} 
+
+hr{
+    width: 500px;
+    margin-left: 0px;
+}
+
+input[type=text]{
+    width:400px;
+    height:30px;
+    border:2px solid gainsboro;
+    border-radius: 5px;
+}
+
+#addtask{
+    height:40px;
+}
+
+input[type=text]:focus {
+    border: 2px solid cornflowerblue;
+    outline: none;
+}
+
+button {
+    width: 80px;
+    height: 38px;
+    margin-left:10px;
+    border: 2px solid cornflowerblue;
+    background-color:cornsilk;
+    color:cornflowerblue;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.task {
+width: 405px;
+height: 30px;
+margin-left: 35px;
+transition: 0.5s;
+font-weight: bolder;
+color:rgb(58, 55, 55);
+}
+
+.taskbutton {
+    width: 25px;
+    height: 25px;
+    background-color: tomato;
+    color: whitesmoke;
+    margin-left: 0px ;
+}
+
+input[type=checkbox] {
+   width: 20px;
+    height: 30px;
+    margin-left: 10px;
+    position:absolute;
+}
+
+h3 {
+    margin:0px;
+    padding:0px;
+    font-style: oblique;
+}
+
+.extra-buttons {
+    margin-top: 80px;
+    margin-left: 600px;
+    display:flex;
+    
+    width: 20%;    
+}
+
+input[value="Web Engineering Assignment"] {
+    text-decoration: line-through;
+    text-decoration-color: crimson;
+}
+
+input[value="General Cleaning"] {
+    text-decoration: line-through;
+    text-decoration-color:crimson;
+}
+
+input[value="Bath the Dog"] {
+    text-decoration: line-through;
+    text-decoration-color: crimson;
+}
+
+#todo-bg {
+    background-color:moccasin;
+}
+#todo-top {
+    background-color: moccasin;
+}
+
+#doing-bg {
+    background-color:thistle;
+}
+#doing-top {
+    background-color:thistle;
+}
+
+#done-bg {
+    background-color:turquoise;
+}
+#done-top {
+    background-color: turquoise;
+}
+
+#homepagetext {
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+#homepage-hr {
+    width: 100%;
+}
+
+
+
