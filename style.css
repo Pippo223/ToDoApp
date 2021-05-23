@@ -87,8 +87,8 @@ h3 {
 }
 
 .extra-buttons {
-    margin-top: 80px;
-    margin-left: 600px;
+    margin-top: 60px;
+    margin-left: 500px;
     display:flex;
     
     width: 20%;    
@@ -139,5 +139,9 @@ input[value="Bath the Dog"] {
     width: 100%;
 }
 
+.shift {
+    margin-left: 50px;
+    margin-right: 100px;
+}
 
 
